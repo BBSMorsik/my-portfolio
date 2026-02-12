@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/common.css" />
+		<link rel="stylesheet" href="styles/main.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest"
+			defer
+		></script>
+
+		<script src="scripts/form.js" defer></script>
+		<script src="scripts/scroll.js" defer></script>
+		<script src="scripts/burger.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<a href="index.html" class="header__logo">Yevhenii Bondarenko</a>
+
+			<button class="burger" aria-label="Открыть меню">
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+			</button>
+
+			<nav class="header__nav">
+				<ul class="header__list">
+					<li class="header__item">
+						<a href="#work" class="header__link">Portfolio</a>
+					</li>
+					<li class="header__item">
+						<a href="#about" class="header__link">About</a>
+					</li>
+					<li class="header__item">
+						<a href="#contact" class="header__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="hero">
+			<div class="container">
+				<div class="hero__content">
+					<h1 class="hero__title">
+						HI, I AM <br /><span class="hero__name">YEVHENII BONDARENKO</span>
+					</h1>
+					<p class="hero__description">
+						Based in Gliwice, Poland, I'm a front-end developer who is
+						passionate about building accessible and user-friendly websites.
+					</p>
+					<div class="hero__social">
+						<a href="#contact" class="hero__btn hero__btn--contact">
+							<img src="img/button.png" alt="Contact button" />
+						</a>
+						<a href="#" class="hero__btn hero__btn--linkedin">
+							<img src="img/linkedin.png" alt="LinkedIn profile" />
+						</a>
+						<a href="" class="hero__btn hero__btn--github">
+							<img src="img/github.png" alt="GitHub profile" />
+						</a>
+					</div>
+				</div>
+				<div class="hero__photo">
+					<img src="img/sss.jpg" alt="Yevhenii Bondarenko photo" />
+				</div>
+			</div>
+		</section>
+
+		<hr class="line" />
+
+		<section class="projects" id="work">
+			<div class="container">
+				<div class="projects__header">
+					<h2 class="projects__title">FEATURED PROJECTS</h2>
+					<p class="projects__subtitle">
+						Here are some of the selected projects that showcase my passion for
+						<br />
+						front-end development.
+					</p>
+				</div>
+
+				<div class="projects__list">
+					<div class="project">
+						<div class="project__image">
+							<img src="img/work.jpg" alt="Promotional landing page" />
+						</div>
+						<div class="project__content">
+							<div class="project__description">
+								<h3 class="project__title">
+									Portfolio Landing Page Implementation
+								</h3>
+								<p class="project__text">
+									Developed a responsive portfolio landing page based on a Figma
+									design using HTML, CSS, and vanilla JavaScript. Implemented
+									smooth scrolling navigation, form submission to a server, and
+									interactive UI elements while focusing on clean layout
+									structure and usability.
+								</p>
+							</div>
+							<div class="project__info">
+								<h4 class="project__info-title">PROJECT INFO</h4>
+								<hr class="project__divider" />
+								<div class="project__info-row">
+									<span class="project__info-label">Year</span>
+									<span class="project__info-value">2025</span>
+								</div>
+								<hr class="project__divider" />
+								<div class="project__info-row">
+									<span class="project__info-label">Role</span>
+									<span class="project__info-value">Front-end Developer</span>
+								</div>
+								<hr class="project__divider" />
+							</div>
+							<div class="project__actions">
+								<a
+									href="https://bbsmorsik.github.io/portfolio-html-css-js/"
+									class="project__btn project__btn--demo"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="img/view project.png"
+										height="30"
+										alt="View live demo"
+									/>
+								</a>
+								<a
+									href="https://github.com/BBSMorsik/portfolio-html-css-js"
+									target="_blank"
+									rel="noopener noreferrer"
+									class="project__btn project__btn--github"
+								>
+									<img src="img/view project git.png" alt="View on GitHub" />
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="project">
+						<div class="project__image">
+							<img src="img/image 10.jpg" alt="Blog site" />
+						</div>
+						<div class="project__content">
+							<div class="project__description">
+								<h3 class="project__title">
+									Pokédex Web App (PokeAPI Integration)
+								</h3>
+								<p class="project__text">
+									Built an interactive web application that fetches and displays
+									Pokémon data from the public PokeAPI. This project marked my
+									introduction to React, where I worked with functional
+									components and hooks to handle state and side effects.
+									Implemented dynamic rendering and interactive UI features
+									based on API responses.
+								</p>
+							</div>
+							<div class="project__info">
+								<h4 class="project__info-title">PROJECT INFO</h4>
+								<hr class="project__divider" />
+								<div class="project__info-row">
+									<span class="project__info-label">Year</span>
+									<span class="project__info-value">2025-2026</span>
+								</div>
+								<hr class="project__divider" />
+								<div class="project__info-row">
+									<span class="project__info-label">Role</span>
+									<span class="project__info-value">Front-end Developer</span>
+								</div>
+								<hr class="project__divider" />
+							</div>
+							<div class="project__actions">
+								<a
+									href="https://bbsmorsik.github.io/pokedex-web-app-react/"
+									class="project__btn project__btn--demo"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img src="img/view project.png" alt="View live demo" />
+								</a>
+								<a
+									href="https://github.com/BBSMorsik/pokedex-web-app-react"
+									class="project__btn project__btn--github"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img src="img/view project git.png" alt="View on GitHub" />
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="project project--last">
+						<div class="project__image">
+							<img src="img/image 9.jpg" alt="E-commerce product page" />
+						</div>
+						<div class="project__content">
+							<div class="project__description">
+								<h3 class="project__title">E-commerce product page</h3>
+								<p class="project__text">
+									Successfully crafted an engaging product page featuring a
+									dynamic lightbox gallery and seamless cart functionality,
+									showcasing proficiency in JavaScript development.
+								</p>
+							</div>
+							<div class="project__info">
+								<h4 class="project__info-title">PROJECT INFO</h4>
+								<hr class="project__divider" />
+								<div class="project__info-row">
+									<span class="project__info-label">Year</span>
+									<span class="project__info-value">2023</span>
+								</div>
+								<hr class="project__divider" />
+								<div class="project__info-row">
+									<span class="project__info-label">Role</span>
+									<span class="project__info-value">Front-end Developer</span>
+								</div>
+								<hr class="project__divider" />
+							</div>
+							<div class="project__actions">
+								<a href="#" class="project__btn project__btn--demo">
+									<img src="img/view project.png" alt="View live demo" />
+								</a>
+								<a href="#" class="project__btn project__btn--github">
+									<img src="img/view project git.png" alt="View on GitHub" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<hr class="line" />
+
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__header">
+					<h2 class="about__title">About me</h2>
+				</div>
+				<div class="about__content">
+					<h3 class="about__subtitle">
+						I’m a front-end developer based in Gliwice. <br />I’m a welder by
+						education, but my passion is creating beautiful and user-friendly
+						websites.
+					</h3>
+					<p class="about__text">
+						I am a front-end developer based in Gliwice, actively looking for
+						exciting opportunities to grow. Although my formal education is in
+						welding, my true passion lies in creating modern and user-friendly
+						web interfaces. I actively started learning web development in
+						September 2025, and since then I have been regularly practicing and
+						building various projects. When I'm not programming, I enjoy walking
+						and traveling. I am constantly learning new things to broaden my
+						technical horizons and improve my skills.
+					</p>
+
+					<a href="about.html" class="about__btn">MORE ABOUT ME</a>
+				</div>
+			</div>
+		</section>
+
+		<hr class="line" />
+
+		<footer class="footer container" id="contact">
+			<div class="footer__navigation">
+				<h2 class="footer__title">Let's connect</h2>
+				<p class="footer__text">
+					Say hello at
+					<a
+						href="https://mail.google.com/mail/?view=cm&fs=1&to=bbsmorsik@gmail.com"
+						target="_blank"
+						class="footer-email"
+						>bbsmorsik@gmail.com
+					</a>
+				</p>
+				<p class="footer__text">
+					For more info, here’s my <a href="#" class="footer-resume">resume</a>
+				</p>
+				<div class="footer__social">
+					<a href="#"><img src="img/linked-2.svg" alt="" /></a>
+					<a href="#"><img src="img/github.svg" alt="" /></a>
+					<a href="#"><img src="img/x.svg" alt="" /></a>
+					<a href="#"><img src="img/inst.svg" alt="" /></a>
+				</div>
+				<p class="footer__copyright">© 2025 Yevhenii Bondarenko.</p>
+			</div>
+
+			<div class="footer__contact">
+				<form class="contact-form">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" />
+						<div class="error" id="name-error"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" />
+						<div class="error" id="email-error"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" />
+						<div class="error" id="subject-error"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" name="message"></textarea>
+						<div class="error" id="message-error"></div>
+					</div>
+					<button type="submit" class="submit-btn">Submit</button>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,166 @@
+.hero__content .container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 160px;
+	margin-bottom: 120px;
+	gap: 25px;
+}
+.hero__title {
+	font-family: 'Bebas Neue';
+	font-weight: 400;
+	font-style: 'Regular';
+	font-size: 95px;
+	line-height: 110%;
+	width: 290px;
+}
+.hero__description {
+	max-width: 60%;
+}
+.hero__subtitle {
+	font-family: 'Manrope';
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 32px;
+	line-height: 140%;
+	margin-bottom: 16px;
+}
+.hero__text {
+	font-family: 'Manrope';
+	font-weight: 400;
+	font-style: 'Regular';
+	line-height: 150%;
+	color: #c7c7c7;
+	margin-bottom: 48px;
+}
+.hero__actions {
+	display: flex;
+	gap: 16px;
+}
+.hero_img {
+	width: 100%;
+	height: 100%;
+}
+.hero_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 16px;
+}
+.capabilities .container {
+	display: flex;
+	margin-top: 40px;
+	padding: 80px 0;
+}
+.capabilities_title {
+	font-family: 'Bebas Neue';
+	font-weight: 400;
+	font-style: 'Regular';
+	font-size: 76px;
+	line-height: 100%;
+	width: 600px;
+}
+.capabilities__main {
+	max-width: 600px;
+	margin-left: 24px;
+}
+.capabilities__description {
+	font-family: 'Manrope';
+	font-weight: 400;
+	line-height: 150%;
+	color: #c7c7c7;
+	margin-bottom: 32px;
+}
+.skills__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+.skill-tag {
+	padding: 20px 40px;
+	border-radius: 100px;
+	border: 1px solid #484848;
+	font-family: 'Manrope';
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 16px;
+	line-height: 100%;
+	text-transform: uppercase;
+}
+
+.experience .container {
+	display: flex;
+	padding-top: 80px;
+	gap: 24px;
+}
+.experience_title {
+	font-family: 'Bebas Neue';
+	font-weight: 400;
+	font-style: 'Regular';
+	font-size: 76px;
+	line-height: 100%;
+	width: 600px;
+}
+.experience__main {
+	max-width: 600px;
+}
+.experience__work--Header {
+	display: flex;
+	margin-bottom: 16px;
+	justify-content: space-between;
+}
+.experience__work--title {
+	font-family: 'Manrope';
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 24px;
+	line-height: 130%;
+	letter-spacing: -1%;
+}
+.experience__period {
+	font-family: 'Manrope';
+	font-weight: 400;
+	font-style: 'Regular';
+	font-size: 18px;
+	line-height: 150%;
+	color: #c7c7c7;
+}
+.experience__work--subtitle {
+	font-family: 'Manrope';
+	font-weight: 400;
+	font-style: 'Regular';
+	line-height: 150%;
+	color: #c7c7c7;
+	margin-bottom: 80px;
+}
+@media (max-width: 899px) {
+	.hero__description {
+		max-width: 64%;
+	}
+	.hero__title {
+		font-size: 80px;
+		width: 250px;
+	}
+}
+@media (max-width: 768px) {
+	.hero__content .container {
+		flex-direction: column;
+	}
+	.hero__title {
+		font-size: 95px;
+		width: 100%;
+	}
+	.hero__description {
+		max-width: 100%;
+	}
+	.capabilities .container {
+		flex-direction: column;
+	}
+	.capabilities_title {
+		margin-left: 24px;
+		margin-bottom: 24px;
+	}
+	.experience .container {
+		flex-direction: column;
+		margin-left: 14px;
+	}
+}

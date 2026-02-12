@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About me</title>
+
+		<link rel="stylesheet" href="styles/common.css" />
+		<link rel="stylesheet" href="styles/about.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest"
+			defer
+		></script>
+
+		<script src="scripts/form.js" defer></script>
+		<script src="scripts/burger.js" defer></script>
+		<script src="scripts/scroll.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<a href="index.html" class="header__logo">Yevhenii Bondarenko</a>
+
+			<button class="burger" aria-label="Открыть меню">
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+				<span class="burger__line"></span>
+			</button>
+
+			<nav class="header__nav">
+				<ul class="header__list">
+					<li class="header__item">
+						<a href="index.html" class="header__link">Home</a>
+					</li>
+					<li class="header__item">
+						<a href="#about_me" class="header__link">About</a>
+					</li>
+					<li class="header__item">
+						<a href="#contact" class="header__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="hero__content">
+			<div class="container">
+				<h1 class="hero__title" id="about_me">About me</h1>
+				<div class="hero__description">
+					<h3 class="hero__subtitle">
+						I’m a front-end developer based in Gliwice.
+					</h3>
+					<p class="hero__text">
+						I’m a welder by education, but my passion is creating beautiful and
+						user-friendly websites. I am actively looking for exciting
+						opportunities to grow. Although my formal education is in welding,
+						my true passion lies in creating modern and accessible web
+						interfaces. I actively started learning web development in September
+						2025, and since then I have been regularly practicing and building
+						various projects. I am currently learning React.js. When I'm not
+						programming, I enjoy walking and traveling. I am constantly learning
+						new things to broaden my technical skills and improve my abilities.
+					</p>
+					<div class="hero__actions">
+						<a href="#"><img src="img/downloadRes.svg" alt="" /></a>
+						<a href="#" class="hero__btn hero__btn--linkedin">
+							<img src="img/linkedin.png" alt="LinkedIn profile" />
+						</a>
+						<a href="#" class="hero__btn hero__btn--github">
+							<img src="img/github.png" alt="GitHub profile" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hero_img container">
+			<img src="img/hero.png" alt="hero" />
+		</div>
+		<section class="capabilities">
+			<div class="container">
+				<h3 class="capabilities_title">My Capabilities</h3>
+				<div class="capabilities__main">
+					<p class="capabilities__description">
+						I am always eager to learn new skills. Below is a list of
+						technologies and tools I work with
+					</p>
+					<div class="skills__list">
+						<span class="skill-tag">HTML</span>
+						<span class="skill-tag">CSS</span>
+						<span class="skill-tag">JavaScript</span>
+						<span class="skill-tag">React</span>
+						<span class="skill-tag">Figma</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr class="line" />
+
+		<section class="experience">
+			<div class="container">
+				<h3 class="experience_title">My Experience</h3>
+				<div class="experience__main">
+					<div class="experience__work">
+						<div class="experience__work--Header">
+							<h4 class="experience__work--title">
+								Personal Projects & Learning
+							</h4>
+							<p class="experience__period">October 2025 – Present</p>
+						</div>
+						<div class="experience__work--subtitle">
+							<ul>
+								<li>
+									Working on my own web development projects to practice and
+									improve my skills.
+								</li>
+								<li>
+									Building responsive, user-friendly websites and experimenting
+									with modern technologies like React.js.
+								</li>
+								<li>
+									Constantly learning new techniques and approaches to enhance
+									my technical abilities.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- <div class="experience__work">
+						<div class="experience__work--Header">
+							<h4 class="experience__work--title">Front-End Intern</h4>
+							<p class="experience__period">Sep 2023 — Nov 2023</p>
+						</div>
+						<div class="experience__work--subtitle">
+							Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+							irure dolor in reprehenderit in voluptate velit esse cillum dolore
+							eu fugiat nulla pariatur.
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+
+		<hr class="line" />
+
+		<footer class="footer container" id="contact">
+			<div class="footer__navigation">
+				<h2 class="footer__title">Let's connect</h2>
+				<p class="footer__text">
+					Say hello at
+					<a
+						href="https://mail.google.com/mail/?view=cm&fs=1&to=bbsmorsik@gmail.com"
+						target="_blank"
+						class="footer-email"
+						>bbsmorsik@gmail.com
+					</a>
+				</p>
+				<p class="footer__text">
+					For more info, here’s my <a href="#" class="footer-resume">resume</a>
+				</p>
+				<div class="footer__social">
+					<a href="#"><img src="img/linked-2.svg" alt="" /></a>
+					<a href="#"><img src="img/github.svg" alt="" /></a>
+					<a href="#"><img src="img/x.svg" alt="" /></a>
+					<a href="#"><img src="img/inst.svg" alt="" /></a>
+				</div>
+				<p class="footer__copyright">© 2025 Yevhenii Bondarenko.</p>
+			</div>
+
+			<div class="footer__contact">
+				<form class="contact-form">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" />
+						<div class="error" id="name-error"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" />
+						<div class="error" id="email-error"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" />
+						<div class="error" id="subject-error"></div>
+					</div>
+
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" name="message"></textarea>
+						<div class="error" id="message-error"></div>
+					</div>
+					<button type="submit" class="submit-btn">Submit</button>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
