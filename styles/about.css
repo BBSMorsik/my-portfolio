@@ -46,6 +46,7 @@
 	object-fit: cover;
 	border-radius: 16px;
 }
+
 .capabilities .container {
 	display: flex;
 	margin-top: 40px;
@@ -70,6 +71,22 @@
 	color: #c7c7c7;
 	margin-bottom: 32px;
 }
+.downloadCv {
+	background-color: #d3e97a;
+	color: black;
+	font-family: 'Manrope';
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 16px;
+	line-height: 100%;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 100px;
+	padding: 20px 40px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
 .skills__list {
 	display: flex;
 	flex-wrap: wrap;

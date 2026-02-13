@@ -15,6 +15,7 @@
 		<script src="scripts/form.js" defer></script>
 		<script src="scripts/burger.js" defer></script>
 		<script src="scripts/scroll.js" defer></script>
+		<script src="scripts/downloadResume.js" defer></script>
 	</head>
 	<body>
 		<header class="header">
@@ -45,7 +46,7 @@
 			<div class="container">
 				<h1 class="hero__title" id="about_me">About me</h1>
 				<div class="hero__description">
-					<h3 class="hero__subtitle">
+					<h3 class="hero__subtitle" id="CV">
 						I’m a front-end developer based in Gliwice.
 					</h3>
 					<p class="hero__text">
@@ -60,11 +61,21 @@
 						new things to broaden my technical skills and improve my abilities.
 					</p>
 					<div class="hero__actions">
-						<a href="#"><img src="img/downloadRes.svg" alt="" /></a>
-						<a href="#" class="hero__btn hero__btn--linkedin">
+						<button class="downloadCv">download resume</button>
+						<a
+							href="https://www.linkedin.com/in/yevhenii-bondarenko-a990403b0/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="hero__btn hero__btn--linkedin"
+						>
 							<img src="img/linkedin.png" alt="LinkedIn profile" />
 						</a>
-						<a href="#" class="hero__btn hero__btn--github">
+						<a
+							href="https://github.com/BBSMorsik"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="hero__btn hero__btn--github"
+						>
 							<img src="img/github.png" alt="GitHub profile" />
 						</a>
 					</div>
@@ -88,6 +99,7 @@
 						<span class="skill-tag">JavaScript</span>
 						<span class="skill-tag">React</span>
 						<span class="skill-tag">Figma</span>
+						<span class="skill-tag">Git</span>
 					</div>
 				</div>
 			</div>
@@ -147,18 +159,34 @@
 					<a
 						href="https://mail.google.com/mail/?view=cm&fs=1&to=bbsmorsik@gmail.com"
 						target="_blank"
+						rel="noopener noreferrer"
 						class="footer-email"
 						>bbsmorsik@gmail.com
 					</a>
 				</p>
 				<p class="footer__text">
-					For more info, here’s my <a href="#" class="footer-resume">resume</a>
+					For more info, here’s my
+					<a href="#CV" class="footer-resume">resume</a>
 				</p>
 				<div class="footer__social">
-					<a href="#"><img src="img/linked-2.svg" alt="" /></a>
-					<a href="#"><img src="img/github.svg" alt="" /></a>
-					<a href="#"><img src="img/x.svg" alt="" /></a>
-					<a href="#"><img src="img/inst.svg" alt="" /></a>
+					<a
+						href="https://www.linkedin.com/in/yevhenii-bondarenko-a990403b0/"
+						target="_blank"
+						rel="noopener noreferrer"
+						><img src="img/linked-2.svg" alt="linkedin"
+					/></a>
+					<a
+						href="https://github.com/BBSMorsik"
+						target="_blank"
+						rel="noopener noreferrer"
+						><img src="img/github.svg" alt="github"
+					/></a>
+					<a
+						href="https://x.com/bbsmorsik"
+						target="_blank"
+						rel="noopener noreferrer"
+						><img src="img/x.svg" alt="social x"
+					/></a>
 				</div>
 				<p class="footer__copyright">© 2025 Yevhenii Bondarenko.</p>
 			</div>
