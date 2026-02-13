@@ -22,14 +22,6 @@ Hi! My name is Yevhenii Bondarenko, and I’m a frontend developer passionate ab
 
 ---
 
-## Social Media
-
-You can connect with me here:  
-
-- [LinkedIn](www.linkedin.com/in/yevhenii-bondarenko-a990403b0/)  
-- [GitHub]([github.com/BBSMorsik](https://github.com/BBSMorsik))  
-
----
 
 ## Live Demo
 
